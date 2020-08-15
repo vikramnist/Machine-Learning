@@ -22,7 +22,7 @@ y = dataset.iloc[:, -1]
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 
-#Fitting model with trainig data
+#Fitting model with trainig 
 regressor.fit(X, y)
 
 # Saving model to disk
